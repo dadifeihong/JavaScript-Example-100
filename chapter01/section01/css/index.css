@@ -1,0 +1,26 @@
+#wrap{
+    width: 800px;
+    margin: 100px auto;
+}
+.container img{
+    width: 800px;
+}
+.title{
+    height: 50px;
+    background-color: black;
+}
+.tit-con{
+    width: 200px;
+    margin: auto auto;
+}
+.tit-con span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    width: 80px;
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
