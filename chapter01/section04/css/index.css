@@ -1,0 +1,23 @@
+#wrap{
+    width: 496px;
+    margin: 50px auto;
+}
+#wrap .title{
+    height: 45px;
+    background-color: #000911;
+    text-align: center;
+    padding-top: 5px;
+}
+#wrap input{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+#wrap .content{
+    height: 268px;
+    width: 100%;
+}
