@@ -1,0 +1,166 @@
+@charset "utf-8";
+#wrap{
+    width: 350px;
+    height: 630px;
+    margin: 0px auto;
+
+}
+.header,.content,.footer{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    /*background-color:#5db4d2 ;*/
+    background:-webkit-linear-gradient(top,#75cde6,#338cb1);
+}
+.content{
+    width: 100%;
+    height: 484px;
+    background-color: #104f6b;
+    overflow: auto;
+}
+.footer{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    background: -webkit-linear-gradient(top,#071b29,#000911);
+}
+ul,li,h4{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.header-top{
+   display: flex;
+}
+.header-top div{
+    flex: 1;
+
+}
+.header-top div:nth-of-type(2),.header-top div:nth-of-type(3){
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+.header-top div:nth-of-type(3){
+    text-indent: 75px;
+}
+.header-top div:nth-of-type(2){
+    text-align: center;
+}
+.header-top img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-bottom{
+    display: flex;
+}
+.header-bottom div{
+    flex: 1;
+}
+.header-bottom i{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    opacity: 0.3;
+}
+
+.mess{
+    background: url("../img/mess.png") no-repeat center center;
+}
+.qq{
+    background: url("../img/qq.png") no-repeat center center;
+    opacity: 1!important;
+}
+.qqqun{
+    background: url("../img/qqqun.png") no-repeat center center;
+}
+.mess,.qq,.qqqun{
+    background-size: 30px 30px;
+}
+.item{
+    border-bottom: 1px solid #003B58;
+}
+.content ul{
+    display: none;
+}
+.item h4{
+    height: 64px;
+    color: white;
+    text-indent: 28px;
+    line-height: 64px;
+    font-size: 22px;
+    background: url("../img/off.png") no-repeat left center;
+    background-size: 20px 20px;
+
+}
+.item li {
+    display: flex;
+    align-items: center;
+}
+.headPortrait{
+    flex: 1;
+}
+.headPortrait img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nick{
+    flex: 9;
+    color: #fff;
+    margin-left: 10px;
+    border-bottom: 1px solid #003B58;
+}
+.nick h5{
+    margin: 0;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+.nick p{
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.nick span{
+    display: inline-block;
+}
+.nick i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-top: 3px;
+    background: url("../img/star.png") no-repeat center center;
+    background-size: 15px 15px;
+    vertical-align: bottom;
+}
+.left{
+    flex: 1;
+}
+
+.left i{
+    background:url('../img/menu.png') no-repeat center center;
+    background-size: 35px 35px;
+
+}
+.right{
+    flex:1;
+}
+.right i{
+    background:url('../img/love.png') no-repeat center center;
+    background-size: 70px 35px;
+    margin-left: 90px;
+    margin-top: 4px;
+}
+.left i,.right i{
+    width: 70px;
+    height: 35px;
+    display: inline-block;
+
+}
