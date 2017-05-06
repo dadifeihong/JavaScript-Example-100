@@ -1,0 +1,105 @@
+#wrap{
+    width: 400px;
+    height: 51px;
+    margin: 30px auto;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    font-size: 0;
+}
+.menu a{
+    display: inline-block;
+    height: 51px;
+    line-height: 51px;
+    padding:0 18px;
+
+    font-size: 18px;
+}
+.menu a:hover{
+    background-color: #31A030;
+    color: white;
+}
+#wrap .active{
+    background-color: #31A030;
+    color: white;
+}
+
+.item-course i,.item-download i{
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+
+
+}
+.item-course{
+    display: none;
+    position: absolute;
+    left: 63px;
+    width: 160px;
+    border:1px solid #eee;
+
+}
+
+.item-download{
+    display: none;
+    position: absolute;
+    left: 190px;
+    height: 143px;
+    width: 296px;
+    border:1px solid #eee;
+    padding: 10px;
+}
+.item-course i{
+    position: absolute;
+    left: 75px;
+    top:-8px;
+    background: url("../img/ui_new_yktnav_sprite.png") -187px 0px no-repeat;
+}
+.item-download i{
+    position: absolute;
+    left: 142px;
+    top:-8px;
+    background: url("../img/ui_new_yktnav_sprite.png") -187px 0px no-repeat;
+}
+
+.item-course a{
+    display: block;
+    line-height: 45px;
+    height: 45px;
+    width: 160px;
+    border-bottom: 1px solid #eee;
+
+}
+.item-course a span{
+    margin: 0 15px;
+    font-size: 16px;
+
+}
+.item-course a:hover{
+    background-color: #eee;
+}
+.fr{
+    float: right;
+}
+.item-download div{
+    width: 150px;
+}
+
+.item-download a{
+    display: block;
+    height: 44px;
+}
+.item-download a:nth-of-type(1){
+    background: url("../img/ui_new_yktnav_sprite.png") 0px -28px no-repeat;
+}
+.item-download a:nth-of-type(2){
+    margin-top: 10px;
+    background: url("../img/ui_new_yktnav_sprite.png") 0px -75px no-repeat;
+}
+.item-download h4{
+    line-height: 0;
+}
