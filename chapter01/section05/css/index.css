@@ -16,7 +16,6 @@ a{
     height: 51px;
     line-height: 51px;
     padding:0 18px;
-
     font-size: 18px;
 }
 .menu a:hover{
@@ -27,7 +26,9 @@ a{
     background-color: #31A030;
     color: white;
 }
-
+.course-wrap,.download-wrap{
+	 display:inline-block;
+}
 .item-course i,.item-download i{
     display: inline-block;
     width: 12px;
@@ -71,6 +72,7 @@ a{
     line-height: 45px;
     height: 45px;
     width: 160px;
+	padding:0;
     border-bottom: 1px solid #eee;
 
 }

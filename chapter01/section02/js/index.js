@@ -13,7 +13,13 @@ window.onload = function () {
         var fileType = inputValue.substr(inputValue.lastIndexOf('.'));
         //判断当前文件是否可以上传 如果可以就显示图片
         if(checkType(fileType)){
-            oImg.src ='./img/'+inputValue.substr(inputValue.lastIndexOf('\\')+1);
+            //oImg.src ='./img/'+inputValue.substr(inputValue.lastIndexOf('\\')+1);
+			var reader = new FileReader();
+			reader.onload = function(ev){
+				 
+				oImg.src = ev.target.result;
+			}
+			reader.readAsDataURL(this.files[0]);
         }else{
             alert('只允许上传 jpg、png、bmp格式的图片')
         }
